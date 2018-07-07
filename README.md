@@ -91,7 +91,7 @@ Note: `iploc` is built on top of [ip-api.com](http://ip-api.com) -- they do the 
 
 For development with Go, I usually use a local docker container -- here's what I do:
 
-* `make build` created the container
+* `make build` creates the container
 * `make` gets in the container
 * `go run main.go` and have fun with the app
 
