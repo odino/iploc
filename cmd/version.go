@@ -15,6 +15,6 @@ var versionCmd = &cobra.Command{
 	Short: "Print the version number of iploc",
 	Long:  `All software has versions. This is iploc's`,
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("v1.0.0")
+		fmt.Println("v1.0.1")
 	},
 }

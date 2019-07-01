@@ -3,11 +3,12 @@ package cmd
 import (
 	"errors"
 	"fmt"
-	"github.com/Jeffail/gabs"
-	"github.com/spf13/cobra"
 	"io/ioutil"
 	"net/http"
 	"os"
+
+	"github.com/Jeffail/gabs"
+	"github.com/spf13/cobra"
 )
 
 var Pretty bool
@@ -31,7 +32,7 @@ as many geographical info as possible.`,
 		if args[0] == "-" {
 			args[0] = ""
 		}
-		r, err := http.Get("http://ip-api.com/json/" + args[0])
+		r, err := http.Get("http://ipinfo.io/" + args[0])
 		checkError(err)
 		buf, err := ioutil.ReadAll(r.Body)
 		checkError(err)
