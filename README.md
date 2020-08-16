@@ -81,7 +81,7 @@ Grab a binary for the [release](https://github.com/odino/iploc/releases) page. T
 If you fancy building things from scratch, clone this repo and run a `go build`
 for yourself!
 
-Note: `iploc` is built on top of [ip-api.com](http://ip-api.com) -- they do the hard work!
+Note: `iploc` is built on top of [ipinfo.io](http://ipinfo.io) -- they do the hard work!
 
 ## Tests
 
